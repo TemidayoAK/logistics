@@ -12,7 +12,7 @@ from langchain_mistralai import ChatMistralAI
 import httpx
 
 # Configuration
-CSV_PATH = r"Data\pdf_folder\geocoded_data.csv"
+CSV_PATH = r"C:\Users\YUSUF\Documents\logmistral\Data\geocoded_data.csv"
 
 load_dotenv(dotenv_path="./credentials.env")
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
